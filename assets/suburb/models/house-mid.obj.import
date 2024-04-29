@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cstj8pf5tufi5"
+path="res://.godot/imported/house-mid.obj-5e1cce13c831b8285b0d7bdde5d55df9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/house-mid.obj-5e1cce13c831b8285b0d7bdde5d55df9.mesh"]
+
+source_file="res://assets/suburb/models/house-mid.obj"
+dest_files=["res://.godot/imported/house-mid.obj-5e1cce13c831b8285b0d7bdde5d55df9.mesh", "res://.godot/imported/house-mid.obj-5e1cce13c831b8285b0d7bdde5d55df9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

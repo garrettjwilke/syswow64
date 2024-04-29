@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dskpfkl0mp2wk"
+path="res://.godot/imported/house-small-garage.obj-b397ab89830fcbf227e2f2e61a89350c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/house-small-garage.obj-b397ab89830fcbf227e2f2e61a89350c.mesh"]
+
+source_file="res://assets/suburb/models/house-small-garage.obj"
+dest_files=["res://.godot/imported/house-small-garage.obj-b397ab89830fcbf227e2f2e61a89350c.mesh", "res://.godot/imported/house-small-garage.obj-b397ab89830fcbf227e2f2e61a89350c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

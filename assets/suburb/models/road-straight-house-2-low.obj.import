@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cjqxuw4fd7g0w"
+path="res://.godot/imported/road-straight-house-2-low.obj-a2a0e4590c859e222db3f4654f347c78.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-straight-house-2-low.obj-a2a0e4590c859e222db3f4654f347c78.mesh"]
+
+source_file="res://assets/suburb/models/road-straight-house-2-low.obj"
+dest_files=["res://.godot/imported/road-straight-house-2-low.obj-a2a0e4590c859e222db3f4654f347c78.mesh", "res://.godot/imported/road-straight-house-2-low.obj-a2a0e4590c859e222db3f4654f347c78.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

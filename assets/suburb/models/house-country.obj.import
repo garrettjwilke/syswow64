@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2mc8bq2e8bcr"
+path="res://.godot/imported/house-country.obj-54e4abfd63631ad85aeb44101e77dcdd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/house-country.obj-54e4abfd63631ad85aeb44101e77dcdd.mesh"]
+
+source_file="res://assets/suburb/models/house-country.obj"
+dest_files=["res://.godot/imported/house-country.obj-54e4abfd63631ad85aeb44101e77dcdd.mesh", "res://.godot/imported/house-country.obj-54e4abfd63631ad85aeb44101e77dcdd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

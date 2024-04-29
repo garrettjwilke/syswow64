@@ -1,0 +1,68 @@
+[gd_scene load_steps=19 format=3 uid="uid://b7x2otetwomna"]
+
+[ext_resource type="Texture2D" uid="uid://c0t6m3nmftmmj" path="res://assets/textures/grid_cyan_512x512.png" id="1_ulmnj"]
+[ext_resource type="Texture2D" uid="uid://6750e68ltia" path="res://assets/textures/grid_blue_512x512.png" id="2_rwj32"]
+[ext_resource type="Texture2D" uid="uid://c0lixhs8kkf6l" path="res://assets/textures/grid_red_512x512.png" id="3_ldpid"]
+[ext_resource type="Texture2D" uid="uid://cqmgniojhon1e" path="res://assets/textures/grid_yellow_512x512.png" id="4_l6qbp"]
+[ext_resource type="Texture2D" uid="uid://blxp0yjehqfar" path="res://assets/textures/grid_pink_512x512.png" id="5_urndy"]
+[ext_resource type="Texture2D" uid="uid://djw0mrd374al" path="res://assets/textures/grid_orange_512x512.png" id="6_ftqg7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3kdi7"]
+albedo_texture = ExtResource("1_ulmnj")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_y5wxc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tmlcf"]
+albedo_texture = ExtResource("2_rwj32")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_atm3b"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y7det"]
+albedo_texture = ExtResource("3_ldpid")
+
+[sub_resource type="BoxMesh" id="BoxMesh_pm2ls"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l2iyh"]
+albedo_texture = ExtResource("4_l6qbp")
+
+[sub_resource type="BoxMesh" id="BoxMesh_0igk1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6nfjr"]
+albedo_texture = ExtResource("5_urndy")
+
+[sub_resource type="PrismMesh" id="PrismMesh_4y31k"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hxaig"]
+albedo_texture = ExtResource("6_ftqg7")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2f88j"]
+
+[node name="pill_mesh" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1.5, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_3kdi7")
+mesh = SubResource("CapsuleMesh_y5wxc")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.433731, 2.38419e-07, -6.44977)
+material_override = SubResource("StandardMaterial3D_tmlcf")
+mesh = SubResource("CapsuleMesh_atm3b")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.06693, -2.38419e-07, -0.142551)
+material_override = SubResource("StandardMaterial3D_y7det")
+mesh = SubResource("BoxMesh_pm2ls")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 6.57728, 0, -11.1872)
+material_override = SubResource("StandardMaterial3D_l2iyh")
+mesh = SubResource("BoxMesh_0igk1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.80601, 0, 1.69645)
+material_override = SubResource("StandardMaterial3D_6nfjr")
+mesh = SubResource("PrismMesh_4y31k")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5261, 0, -8.25479)
+material_override = SubResource("StandardMaterial3D_hxaig")
+mesh = SubResource("CylinderMesh_2f88j")

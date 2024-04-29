@@ -1,0 +1,42 @@
+REMOVED:
+/fbx
+  - this directory has fbx import executables that are not needed, as we can use open source blender meshes instead
+
+/addons/godot-prototype-texture
+  - this directory has a lot of unused png and svg textures
+
+/addons/orbit_camera
+  - this directory has no use, as we can simply orbit the camera using a script (which i have done in the /scripts/main.gd script)
+
+/node_3d.gdshader
+  - empty shader file
+
+individual 3d meshes
+  - rather than manually set individual 3d meshes, they are now dynamically loaded and spawned from the /scripts/main.gd script file
+
+----------------------------
+MOVED:
+/node_3d.tscn
+  - moved to /scenes/main.tscn to match naming conventions
+
+----------------------------
+ADDED:
+dynamic loading and spawning of 3d mesh files from /scripts/main.gd script file
+day/night skybox
+basic menu system
+  - check TODO
+----------------------------
+TODO:
+RNG for spawning 3d meshes
+  - get global position of floor and bound RNG to those dimensions
+Menu System
+  - 3d mesh spawn
+    - choose 3d mesh
+    - set amount of spawns and positions
+    - delete current spawns of similar mesh and then respawn new amount
+  - start/stop button
+  - min/max loads depending on system
+NEW Scenes
+Config files
+  - preset configs based on system
+  - ability to create/edit configs

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://8ddaeswju5ay"]
+
+[ext_resource type="ArrayMesh" uid="uid://bv4ukd6lyvy8m" path="res://assets/suburb/models/house-luxurious.obj" id="1_a4swf"]
+
+[node name="house_mesh" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 2.08165e-12)
+gi_mode = 0
+mesh = ExtResource("1_a4swf")

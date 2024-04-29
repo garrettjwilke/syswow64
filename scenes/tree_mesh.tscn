@@ -1,0 +1,121 @@
+[gd_scene load_steps=7 format=3 uid="uid://bq88ygj8alrjv"]
+
+[ext_resource type="Texture2D" uid="uid://8b30d63yuvri" path="res://assets/bamboo/diffuse.tga" id="1_cf7m5"]
+[ext_resource type="Texture2D" uid="uid://cetd26tdu8qs2" path="res://assets/bamboo/specular.tga" id="2_eowir"]
+[ext_resource type="Texture2D" uid="uid://dg1goglfkxfhv" path="res://assets/bamboo/normal.tga" id="3_43g7w"]
+[ext_resource type="ArrayMesh" uid="uid://cn1v8k6f8x5bh" path="res://assets/bamboo/Bamboo 01.obj" id="4_csgxy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dcfus"]
+render_priority = 5
+albedo_texture = ExtResource("1_cf7m5")
+normal_enabled = true
+normal_texture = ExtResource("3_43g7w")
+anisotropy_enabled = true
+anisotropy = 1.0
+ao_enabled = true
+ao_light_affect = 0.7
+ao_texture = ExtResource("2_eowir")
+ao_on_uv2 = true
+ao_texture_channel = 3
+heightmap_scale = -6.506
+subsurf_scatter_enabled = true
+subsurf_scatter_strength = 0.5
+subsurf_scatter_texture = ExtResource("2_eowir")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_175id"]
+albedo_texture = ExtResource("1_cf7m5")
+
+[node name="tree" type="MeshInstance3D"]
+transform = Transform3D(0.0295166, -0.0113519, 0.024493, 0.0113307, 0.0381497, 0.0040268, -0.0245028, 0.00396662, 0.0313669, 2.08165e-12, 2.08165e-12, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_dcfus")
+mesh = ExtResource("4_csgxy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -7.37034e-08, -2.65332e-07, 3.957e-09, 1, 1.65409e-08, 2.1152e-07, -4.9418e-08, 1, 263.985, -37.3912, -388.565)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -7.37034e-08, -3.81987e-07, -1.83947e-08, 1, 2.57765e-08, 3.30729e-07, -4.9418e-08, 1, -685.242, 290.954, -828.335)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -7.37034e-08, -5.58246e-07, 1.12418e-09, 1, 4.99132e-08, 3.97047e-07, -4.9418e-08, 1, -191.251, 145.15, -836.995)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -7.37034e-08, -6.74901e-07, -5.43393e-09, 1, 6.65993e-08, 5.2297e-07, -4.9418e-08, 1, -430.353, 180.637, -500.408)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -7.37034e-08, -8.48605e-07, 2.01666e-09, 1, 9.25209e-08, 6.42179e-07, -4.9418e-08, 1, -480.058, 143.03, -4.25654)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0481781, 0.208201, 0.976899, 0.407569, 0.897007, -0.171074, -0.911903, 0.389912, -0.128073, 98.202, 61.011, -854.337)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0481781, 0.208201, 0.976899, 0.407569, 0.897007, -0.171074, -0.911903, 0.389912, -0.128072, -217.315, 43.8965, 195.613)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.048178, 0.208201, 0.976899, 0.407569, 0.897007, -0.171074, -0.911903, 0.389912, -0.128072, -279.932, 115.926, -310.599)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D9" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0481778, 0.208201, 0.976899, 0.407569, 0.897007, -0.171074, -0.911903, 0.389912, -0.128072, 67.7889, -7.27399, -121.833)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D10" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0481778, 0.208201, 0.976899, 0.407569, 0.897007, -0.171074, -0.911903, 0.389912, -0.128072, 547.043, -146.145, -154.713)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D11" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.828557, 0.521612, 0.203508, 0.552605, 0.820327, 0.147277, -0.0901214, 0.234487, -0.967933, -453.641, 161.108, -249.86)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D12" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.828557, 0.521612, 0.203508, 0.552605, 0.820327, 0.147277, -0.0901213, 0.234487, -0.967933, 414.619, -158.858, 338.346)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D13" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.828557, 0.521612, 0.203508, 0.552605, 0.820327, 0.147277, -0.0901214, 0.234487, -0.967933, -72.4956, -6.75868, 268.021)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D14" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.828557, 0.521612, 0.203508, 0.552606, 0.820327, 0.147277, -0.0901217, 0.234487, -0.967933, 212.623, -60.2048, -27.9046)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D15" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.828557, 0.521612, 0.203508, 0.552606, 0.820327, 0.147277, -0.0901218, 0.234487, -0.967934, 335.16, -45.4506, -512.484)
+material_override = SubResource("StandardMaterial3D_175id")
+mesh = ExtResource("4_csgxy")
+skeleton = NodePath("")
